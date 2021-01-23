@@ -53,71 +53,69 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<div>2020.01.23</div>	
+							<div>2020.01.23 - 2020.01.24</div>	
 							<h1>Invisioning Future Museums</h1>
 							<span class="image main">
-								<img src="https://github.com/oscarso2000/MyCourseIndex/raw/master/demo/1998.gif" alt="" /></span>
+								<img src="./images/m.png" alt="" /></span>
 							<p>
-								MyCourseIndex (MCI) is a website that acts as an essential search engine for Cornell students and their courses. 
-								Initially a project started for CS/INFO 4300: Language and Information, this search gathers all information from Piazza posts 
-								to Textbook and Notes Resources and returns valid results for the student to utilize. 
-								It is now being maintained and improved by us, members of Cornell Data Science Project Team. 
-								Our three advisors are Prof. Trummer, Prof. Thorsten, and Prof. Jeff. We are currently a team of 8 spanning different sub-teams 
-								of CDS who are all hoping that this project will leave a mark on the Cornell community. 
+                I love museums. I'm not an art history expert, but there is something about 
+                steppping into a museum or an art gallery that makes me feel stimulated 
+                by the creative ideas and free expressions roaming around me on the walls of this place.
+                Though I can't exactly pinpoint what it is I love about art, I love the process of 
+                understand something about an artwork that I've never seen before,
+                peering at the descriptions, looking at 
+                the intimate brushstorkes, and trying to understand intention behind the art. 
+                With whatever understanding I get from it I try to relate it to my life, leaving a 
+                small piece of it in my heart.<br/>
+                However, I know that not all people have the same experience as I do when 
+                encountering artwork at a museum. And, I believe that it's not their fault.
 							</p>
-							<h3>Features of MyCourseIndex.com</h3>
+              <h3>The Problem with Museums Today</h3>
+              <video width="100%" controls>
+                <source src="./images/sigh.mp4" type="video/mp4"/>
+              </video>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <p>
+                The above is a video taken in front of the Mona Lisa on my visit to Paris 2019. 
+                I could barely get a look at Mona Lisa at the end I gave up trying.
+                Somehow even if I succeeded in weezing myself up to the front, I doubted that 
+                could have a single intimate moment with the painting. We need to fix this.
+              </p>
 							<p>
-								The project initially consisted of search similarity algorithms like cosine similarity, 
-								exact matching, and SVD to generate search results for a user’s particular query. 
-								It also had a FERPA regulated security system that used Cornell’s 2-Factor Authentication in Microsoft AD 
-								to maintain who is allowed to access the website. Lastly, the website had concept matching and simstring algorithms 
-								to generate the correct concept tags for each search result. The aim for this semester was to continue with more 
-								enhancements, which will be discussed below, in the project and further develop the usability of the website.
+                I think the biggest problem that we have with museums today is that: <br/>
+                <br/>
+                - They are just too much people you can barely look at the picture.<br/>
+                - The interior of museums pays no attention to the physical tiredness, legs hurt, I need to sit! <br/>
+                - No discussions, questions, sharing of ideas<br/>
+                - Lack of intimate interaction with the painting<br/>
 							</p>
 							<p>
-								The initial objective of MyCourseIndex was to tackle the addition of a question answering model 
-								into our website as the ML component, in addition to the architecture and enhanced pipelines of a class signup as 
-								the backend component, and the cross-compatibility as the front-end component. 
-								The project should be treated as a full-stack software where developers can express their ideas in tackling the issue 
-								presented in the Overview. 
+               As a museum lover who has been to quite a few art gallieries around the world,
+               here is what I think the future of art museums should gear towards.
 							</p>
 							<h3>
-								Search Engine Enhancement: Question Answering Model & Text Understanding
+								Future Museums with Holograms and Virtual Reality
+              </h3>
+              <img  id="center" width="80%" src="./images/googleart.png"/>
+							<p>
+                Like the Google Art and Culture website above, most of today's explorations in making museums more tech orientated is 
+                focused around virtual tours of museums, tech art, and organizing art collections
+                digitally.<br/>
+                My exploration here is different in that it studies the current problems we
+                have with museums today and tries to enhance the experience that people have when visiting art galleries
+                with the assistance of technology.<br/>
+                I'm saying that we need to move away from the uncomfortable
+                headphones and squinting small descriptions of the artwork and 
+                creating a more immersive and interactive experience with experiencing art.
+                so my main question is?
+              </p>
+              
+              <h3>
+								How can we use Technology to Enhance Museum Experiences?
 							</h3>
-							<p>
-								In this project, I worked on enchancing the Text Understanding features of our search engine.
-								We conducted Text Understanding to improve the text recognition features of MyCourseIndex 
-								that could be used in future cheatsheet generation and improving search queries. 
-								To improve Text Understanding, we conducted Named Entity Recognition (NER) with BERT. 
-								Here we took two approaches to NER. We conducted multi class classification based NER and Conditional Random Field (CRF) based classification.
-								 The text data we used are Cornell course material, textbooks, wikipedia articles. 
-								 We chose text examples that would be most relevant to the text that MyCourseIndex would be receiving. 
-								 We labeled the data with IOB and set our predefined categories to concepts, definitions, and examples.  
-								 With this we labeled the data considering the main information that students would be looking for when studying and preparing for a course.
-									With this we trained the data with token embeddings, mask word embeddings and segmentation embeddings.
-								<br/>
-								<br/>
-								We have also built up a glossary of over 5 million words using the C4 (Cleaned Common Crawl Corpus) dataset. 
-								This expansion of the dataset allows for the strengthening of the rules based system for extracting concepts however 
-								it lacks a sense differentiation along with a relational mapping to determine what an item’s relation may be (hyponym / hypernym relations). 
-								Following Angeli et al (2015), we started to develop a module to extract a set of entailed clauses from a series of sentences. 
-								This allows for the generation of information triples without a specific template to be filled. This work is still in progress, 
-								to be combined with neural coreference to ensure that entity relations are properly assigned in a piece of text.
-							</p>
-							<p>
-								You can checkout the final website at but only if you are a Cornell member. 
-								If not, checkout the demo image!  <a  href=" www.mycourseindex.com">MyCourseIndex.com</a>
-								<br/>
-								You can contact the members for more information about the project!  <a href=" https://www.mycourseindex.com/about">MyCourseIndex Team</a>
-								<br/>
-								The code for this project is available at <a href="https://github.com/oscarso2000/MyCourseIndex">MyCourseIndex Github</a>
-								<br/>
-								The documentation for this project is here at <a  href="https://docs.mycourseindex.com/">documentation</a>
-								<br/>
-								If you are not a Cornell member, many parts are not accessible do to security reasons. 
-								For more information, contact me here at<a  href="mailto: sl994@cornell.edu" > sl994@cornell.edu</a>
-
-							</p>
 
 							<a href="/">
 								<ul class="actions">
