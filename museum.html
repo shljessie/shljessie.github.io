@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<link rel="shortcut icon" href="../images/logo.png" />
+		<title>Jessie Lee | FutureMuseums </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+						<!-- Logo -->
+						<a href="index.html" class="logo">
+							<span class="symbol"><img src="../images/logo.png" alt="" /></span>
+							<span class="title">Jessie Lee </span>
+						</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+
+				<!-- Menu -->
+				<nav id="menu">
+					<h2>Menu</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="https://docs.google.com/document/d/1QFNgcO9zj-Xf6fsRxyjCGN0nNiHyRKlDmDp75iOOtJo/edit">Resume</a></li>
+						<li><a href="mailto:sl994@cornell.edu">Mail</a></li>
+						<li><a href="https://www.linkedin.com/in/jessie-l-3a188519b/">Linkedin</a></li>
+						<li><a href="https://github.com/shljessie">Github</a></li>
+					</ul>
+				</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<div>2020.01.23</div>	
+							<h1>Invisioning Future Museums</h1>
+							<span class="image main">
+								<img src="https://github.com/oscarso2000/MyCourseIndex/raw/master/demo/1998.gif" alt="" /></span>
+							<p>
+								MyCourseIndex (MCI) is a website that acts as an essential search engine for Cornell students and their courses. 
+								Initially a project started for CS/INFO 4300: Language and Information, this search gathers all information from Piazza posts 
+								to Textbook and Notes Resources and returns valid results for the student to utilize. 
+								It is now being maintained and improved by us, members of Cornell Data Science Project Team. 
+								Our three advisors are Prof. Trummer, Prof. Thorsten, and Prof. Jeff. We are currently a team of 8 spanning different sub-teams 
+								of CDS who are all hoping that this project will leave a mark on the Cornell community. 
+							</p>
+							<h3>Features of MyCourseIndex.com</h3>
+							<p>
+								The project initially consisted of search similarity algorithms like cosine similarity, 
+								exact matching, and SVD to generate search results for a user’s particular query. 
+								It also had a FERPA regulated security system that used Cornell’s 2-Factor Authentication in Microsoft AD 
+								to maintain who is allowed to access the website. Lastly, the website had concept matching and simstring algorithms 
+								to generate the correct concept tags for each search result. The aim for this semester was to continue with more 
+								enhancements, which will be discussed below, in the project and further develop the usability of the website.
+							</p>
+							<p>
+								The initial objective of MyCourseIndex was to tackle the addition of a question answering model 
+								into our website as the ML component, in addition to the architecture and enhanced pipelines of a class signup as 
+								the backend component, and the cross-compatibility as the front-end component. 
+								The project should be treated as a full-stack software where developers can express their ideas in tackling the issue 
+								presented in the Overview. 
+							</p>
+							<h3>
+								Search Engine Enhancement: Question Answering Model & Text Understanding
+							</h3>
+							<p>
+								In this project, I worked on enchancing the Text Understanding features of our search engine.
+								We conducted Text Understanding to improve the text recognition features of MyCourseIndex 
+								that could be used in future cheatsheet generation and improving search queries. 
+								To improve Text Understanding, we conducted Named Entity Recognition (NER) with BERT. 
+								Here we took two approaches to NER. We conducted multi class classification based NER and Conditional Random Field (CRF) based classification.
+								 The text data we used are Cornell course material, textbooks, wikipedia articles. 
+								 We chose text examples that would be most relevant to the text that MyCourseIndex would be receiving. 
+								 We labeled the data with IOB and set our predefined categories to concepts, definitions, and examples.  
+								 With this we labeled the data considering the main information that students would be looking for when studying and preparing for a course.
+									With this we trained the data with token embeddings, mask word embeddings and segmentation embeddings.
+								<br/>
+								<br/>
+								We have also built up a glossary of over 5 million words using the C4 (Cleaned Common Crawl Corpus) dataset. 
+								This expansion of the dataset allows for the strengthening of the rules based system for extracting concepts however 
+								it lacks a sense differentiation along with a relational mapping to determine what an item’s relation may be (hyponym / hypernym relations). 
+								Following Angeli et al (2015), we started to develop a module to extract a set of entailed clauses from a series of sentences. 
+								This allows for the generation of information triples without a specific template to be filled. This work is still in progress, 
+								to be combined with neural coreference to ensure that entity relations are properly assigned in a piece of text.
+							</p>
+							<p>
+								You can checkout the final website at but only if you are a Cornell member. 
+								If not, checkout the demo image!  <a  href=" www.mycourseindex.com">MyCourseIndex.com</a>
+								<br/>
+								You can contact the members for more information about the project!  <a href=" https://www.mycourseindex.com/about">MyCourseIndex Team</a>
+								<br/>
+								The code for this project is available at <a href="https://github.com/oscarso2000/MyCourseIndex">MyCourseIndex Github</a>
+								<br/>
+								The documentation for this project is here at <a  href="https://docs.mycourseindex.com/">documentation</a>
+								<br/>
+								If you are not a Cornell member, many parts are not accessible do to security reasons. 
+								For more information, contact me here at<a  href="mailto: sl994@cornell.edu" > sl994@cornell.edu</a>
+
+							</p>
+
+							<a href="/">
+								<ul class="actions">
+									<li><input type="submit" value="Back to Home" class="primary" /></li>
+								</ul>
+							</a>
+						</div>
+					</div>
+
+					<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Contact me</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-medium"><span class="label">Medium</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Jessie Lee. All rights reserved</li>
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
