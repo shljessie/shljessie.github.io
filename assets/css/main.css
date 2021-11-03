@@ -3384,15 +3384,27 @@ input, select, textarea {
 
 	#wrapper > * > .inner {
 		width: 100%;
-		max-width: 68em;
+		max-width: 70%;
 		margin: 0 auto;
 		padding: 0 2.5em;
+		text-align: justify;
 	}
 
 		@media screen and (max-width: 736px) {
 
 			#wrapper > * > .inner {
 				padding: 0 1.25em;
+				/* max-width: 50%; */
+			}
+
+		}
+
+		@media screen and (min-width: 1500px) {
+
+			#wrapper > * > .inner {
+				padding: 0 1.25em;
+				max-width: 50%;
+				font-size: 14px;
 			}
 
 		}
