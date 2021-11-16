@@ -2647,7 +2647,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(33.33333% - 2.5em);
+			width: 100%;
 			margin: 2.5em 0 0 2.5em;
 		}
 
@@ -2658,28 +2658,30 @@ input, select, textarea {
 				transition: transform 0.5s ease;
 				position: relative;
 				display: block;
-				width: 100%;
+				margin: auto;
+				/* width: 100%; */
 				border-radius: 4px;
 				overflow: hidden;
 			}
 
 				.tiles article > .image img {
 					display: block;
-					width: 100%;
+					width: 80%;
+					margin:auto;
 				}
 
 				.tiles article > .image:before {
 					pointer-events: none;
-					-moz-transition: background-color 0.5s ease, opacity 0.5s ease;
+					/* -moz-transition: background-color 0.5s ease, opacity 0.5s ease;
 					-webkit-transition: background-color 0.5s ease, opacity 0.5s ease;
 					-ms-transition: background-color 0.5s ease, opacity 0.5s ease;
-					transition: background-color 0.5s ease, opacity 0.5s ease;
+					transition: background-color 0.5s ease, opacity 0.5s ease; */
 					content: '';
 					display: block;
 					position: absolute;
 					top: 0;
 					left: 0;
-					width: 100%;
+					/* width: 100%; */
 					height: 100%;
 					opacity: 1.0;
 					z-index: 1;
@@ -2688,10 +2690,10 @@ input, select, textarea {
 
 				.tiles article > .image:after {
 					pointer-events: none;
-					-moz-transition: opacity 0.5s ease;
+					/* -moz-transition: opacity 0.5s ease;
 					-webkit-transition: opacity 0.5s ease;
 					-ms-transition: opacity 0.5s ease;
-					transition: opacity 0.5s ease;
+					transition: opacity 0.5s ease; */
 					content: '';
 					display: block;
 					position: absolute;
@@ -2699,11 +2701,11 @@ input, select, textarea {
 					left: 0;
 					width: 100%;
 					height: 100%;
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 0.25px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='100' y2='100' /%3E%3Cline x1='100' y1='0' x2='0' y2='100' /%3E%3C/svg%3E");
-					background-position: center;
+					/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 0.25px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='100' y2='100' /%3E%3Cline x1='100' y1='0' x2='0' y2='100' /%3E%3C/svg%3E"); */
+					/* background-position: center;
 					background-repeat: no-repeat;
-					background-size: 100% 100%;
-					opacity: 0.25;
+					background-size: 100% 100%; */
+					/* opacity: 0.25; */
 					z-index: 2;
 				}
 
@@ -2771,11 +2773,11 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: white;
+				/* background-color: white; */
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				/* background-color: #7ecaf6; */
 			}
 
 			.tiles article.style3 > .image:before {
@@ -3403,8 +3405,22 @@ input, select, textarea {
 
 			#wrapper > * > .inner {
 				padding: 0 1.25em;
-				max-width: 50%;
+				max-width: 80%;
 				font-size: 14px;
+			}
+
+		}
+
+		@media screen and (max-width: 400px) {
+
+			#wrapper > * > .inner {
+				padding: 0 1.25em;
+				max-width: 80%;
+				font-size: 10px;
+			}
+
+			b{
+				font-size: 10px;
 			}
 
 		}
