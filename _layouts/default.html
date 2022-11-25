@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-offset-2 col-md-8">
+          {% include nav.html %}
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+          <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js"></script>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!-- ---
+active_section: readings
+---
+
+<br/>
+<div class="projects-container">
+  <h1>Projects</h1>
+  <br/>
+  {% for project in site.data.projects %}
+    {% assign loopindex = forloop.index | modulo: 2 %}
+    {% if loopindex == 1 %}
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="project">
+            <a href="./_projects/eternal.html">
+              <div class="project-img">
+                <img src="./images/projects/eternal/ET.png" width="100" height="100" />
+              </div>
+              <div class="project-info">
+                <h4 class="project-title">{{ project.title }}</h4>
+                <p>{{ project.description }}</p>
+              </div>
+            </a>
+          </div>
+        </div>
+    {% else %}
+        <div class="col-sm-6">
+          <div class="project">
+            <a href="{{ project.url }}">
+              <div class="project-img">
+                <img src="{{ project.img }}" width="100" height="100" />
+              </div>
+              <div class="project-info">
+                <h4 class="project-title">{{ project.title }}</h4>
+                <p>{{ project.description }}</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+</div>
+
+<script src="/javascripts/projects.js"></script> -->

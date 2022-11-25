@@ -1,0 +1,35 @@
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0KLVRJ7XS4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0KLVRJ7XS4');
+  </script>
+
+  <title> Seong Hee Lee </title>
+  <link rel="stylesheet" href="{{ "/stylesheets/reset.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/stylesheets/style.css" | prepend: site.baseurl }}">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{page.title}}" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  {% if page.img %}
+    <meta property="og:image" content="{{ page.img | prepend: site.baseurl | prepend: site.url }}" />
+  {% else %}
+    <meta property="og:image" content="http://jonathanzong.com/images/blog/placeholder.png" />
+  {% endif %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@ohnobackspace" />
+  <meta name="twitter:title" content="{{page.title}}" />
+</head>
