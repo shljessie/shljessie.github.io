@@ -1,0 +1,68 @@
+{
+  "opeds": [
+    {
+      "year": "2019",
+      "url": "https://thetech.com/2019/10/23/struggle-democratize-mit",
+      "title": "The Struggle to Democratize MIT",
+      "authors": "Rodrigo Ochigame, Alan Lundgard, Alonso Espinosa Dominguez, Jonathan Zong, Gabrielle Ballard, Sally Haslanger, Edmund Bertschinger, Mani Mengiste, Ruth Perry",
+      "venue": "The Tech (MIT)",
+      "tag": "refusal"
+    },
+    {
+      "year": "2019",
+      "url": "https://slate.com/technology/2019/08/consent-facial-recognition-data-privacy-technology.html",
+      "title": "Consent Is Not an Ethical Rubber Stamp",
+      "authors": "Crystal Lee*, Jonathan Zong*",
+      "venue": "Slate",
+      "tag": "refusal"
+    },
+    {
+      "year": "2018",
+      "url": "http://nassauweekly.com/researching-the-researchers/",
+      "title": "Researching the Researchers: Ethics and Privacy in Institutional Research",
+      "authors": "Jonathan Zong",
+      "venue": "Nassau Weekly",
+      "tag": "refusal"
+    }
+  ],
+  "conversations": [
+    {
+      "year": "2022",
+      "url": "https://www.printedmatter.org/catalog/60237/",
+      "title": "CAPSULE No. 1",
+      "authors": "Cammie Lee, Megan Pai",
+      "tag": "art"
+    },
+    {
+      "year": "2021",
+      "url": "http://somatosphere.net/2021/form-content-data-bodies.html/",
+      "title": "Form, Content, Data, Bodies: Jonathan Zong and Beth Semel on Biometric Sans",
+      "authors": "Jonathan Zong, Beth Semel",
+      "venue": "Somatosphere",
+      "tag": "art"
+    },
+    {
+      "year": "2021",
+      "url": "/assets/papers/Version_Space_Herndon_Nixdorff_Zong.pdf",
+      "title": "Holly Herndon in conversation with Tabea Nixdorff and Jonathan Zong",
+      "venue": "Version Space",
+      "tag": "art"
+    },
+    {
+      "year": "2018",
+      "url": "http://arts.princeton.edu/news/2018/03/wtf-jonathan-zong-eric-li/",
+      "title": "w-t-f: a conversation with Eric Li and Jonathan Zong",
+      "venue": "Lewis Center for the Arts, Princeton University",
+      "tag": "art"
+    }
+  ],
+  "datajourn": [
+    {
+      "year": "2021",
+      "url": "http://vis.mit.edu/covid-story/",
+      "title": "The Data Visualizations Behind COVID-19 Skepticism",
+      "authors": "Crystal Lee, Jonathan Zong, Anna Arpaci-Dusseau, Katherine Huang, Mateo Monterde, Ethan Nevidomsky, Tanya Yang, Anna Meurer, Soomin Chun, Arvind Satyanarayan",
+      "venue": "MIT Visualization Group"
+    },
+  ]
+}

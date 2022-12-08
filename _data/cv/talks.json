@@ -1,0 +1,82 @@
+{
+  "invited": [
+    {
+      "year": "2022",
+      "url": null,
+      "title": "Designing Data Representations for Embodiment and Refusal",
+      "venue": "Information Science Seminar, Cornell University",
+      "tag": "access"
+    },
+    {
+      "year": "2022",
+      "url": "https://www.youtube.com/watch?v=oc4GQNM7tUw",
+      "title": "Rich Screen Reader Experiences for Accessible Data Visualization",
+      "venues": ["HackNY Fellowship Speaker Series", "Design for Assistive Technology, MIT Beaver Works Summer Institute", "DiverseAbilities Employee Resource Group, New York Department of Transportation"],
+      "tag": "access"
+    },
+    {
+      "year": "2022",
+      "url": null,
+      "title": "Designing Research Ethics Systems",
+      "venue": "Accountable Algorithms Reading Group, Northeastern University",
+      "tag": "refusal"
+    },
+    {
+      "year": "2022",
+      "url": null,
+      "title": "Art, Concepts, Visualizations",
+      "venue": "Interact Fellowship Symposium",
+      "tag": "art"
+    },
+    {
+      "year": "2020",
+      "url": null,
+      "title": "Designing Systems to Theorize Collective Power",
+      "venue": "Digital Theory Lab, NYU Media, Culture, and Communication"
+    },
+    {
+      "year": "2020",
+      "url": null,
+      "title": "Layered Abstractions for Interactive Visualization Design",
+      "venue": "Digital Structures Group, MIT Department of Architecture",
+      "tag": "interaction"
+    },
+    {
+      "year": "2019",
+      "url": "/blog/2019/11/18/the-most-liberal-of-arts",
+      "title": "“The Most Liberal of Arts”",
+      "venue": "Lewis Center for the Arts, Princeton University"
+    },
+    {
+      "year": "2018",
+      "url": "http://opentranscripts.org/transcript/public-accountability-research-ethics/",
+      "title": "Public Accountability in Research Ethics",
+      "venue": "CivilServant Research Summit, MIT Media Lab",
+      "tag": "refusal"
+    }
+  ],
+
+  "conference": [
+    {
+      "year": "2022",
+      "url": "/assets/papers/consent-cscw-2022.pdf",
+      "title": "Consent: A Research and Design Lens for Human-Computer Interaction (Panel)",
+      "venue": "CSCW 2022",
+      "tag": "refusal"
+    },
+    {
+      "year": "2020",
+      "url": "http://jonathanzong.com/blog/2020/05/31/biometric-sans-and-public-display-embodied-writing-in-the-age-of-data",
+      "title": "Public Display and Biometric Sans: Embodied Writing in the Age of Data",
+      "venue": "Before and Beyond Typography, Stanford University Department of History",
+      "tag": "art"
+    },
+    {
+      "year": "2019",
+      "url": "http://jonathanzong.com/blog/2019/04/13/in-our-own-image-the-autonomy-of-artificial-bodies-in-synthetic-porn",
+      "title": "In Our Own Image: The Autonomy of Artificial Bodies in Synthetic Porn",
+      "venue": "Panel: Internet Connection · Theorizing the Web",
+      "tag": "refusal"
+    }
+  ]
+}
