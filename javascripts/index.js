@@ -1,6 +1,3 @@
-
-
-
 new p5(function(p) {
   var t = 0;
   var d = 250;

@@ -79,7 +79,7 @@ a.nav-current{
     }
 }
 .meta-text{
-    font-family:'Roboto Mono';
+    font-family:'Barlow', 'Noto Sans TC', 'Noto Sans KR' !important;
     font-size:0.8em;
     line-height:1.7
 }
