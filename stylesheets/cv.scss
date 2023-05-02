@@ -76,6 +76,19 @@ span.paper-title {
   text-align: right;
 }
 
+// research page
+.r_container{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+.r_boxone{
+  width: 800px;
+}
+.r_boxtwo{
+  padding-left: 30px;
+} 
+
 @media screen and (max-width: 576px) {
   #cv-head {
     display: block;

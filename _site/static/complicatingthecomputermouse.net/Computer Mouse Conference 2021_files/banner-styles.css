@@ -11,7 +11,7 @@
   z-index: 2147483647;
 }
 #wm-ipp, #wm-ipp * {
-  font-family:'Barlow', 'Noto Sans TC', 'Noto Sans KR' !important;
+  font-family:Lucida Grande, Helvetica, Arial, sans-serif;
   font-size:12px;
   line-height:1.2;
   letter-spacing:0;
