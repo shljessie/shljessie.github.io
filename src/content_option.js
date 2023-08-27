@@ -71,6 +71,20 @@ const services = [{
     },
 ];
 
+const awards = [{
+    title: "Gwanjeong Educational Foundation Scholarship - Masters Degree",
+    period:"Sep 2023 - June 2025",
+},
+{
+    title: "ACM/IEEE Human Robot Interaction (HRI 2023) - Best Student Paper Award",
+    period:"March 2022",
+},
+{
+    title: "Robert S Ann Morley Research Grant - Cornell University",
+    period:" December 2021 ",
+},
+];
+
 const workexperience = [{
     title: "[Motional] Robotics Research Engineer",
     period:"Sep 2022 - Dec 2022",
@@ -105,66 +119,78 @@ const researchexperience = [{
 },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+const dataportfolio = [
+    {
+        img: "teachyou",
+        title: "TeachYou: Authoring Generative Teachable Agents for Programming Education",
+        authors: "2024 19th ACM/IEEE International Conference on Human-Computer Interaction (CHI)",
+        link: "contact me",
+    }
+    ,
+    {
+        img: "multi",
+        title: "MultiSum: A Large Dataset for Multimodal Video Temporal Segmentation and Summarization",
+        authors: "Jielin Qiu, Claire Jin, Seong hee Lee, Ding Zhao, 2023 18th ACM/IEEE International Conference on Machine Learning (ICML), 2023",
+        link: "https://drive.google.com/file/d/12hRGbsry94zcJsU2V1_bVWFulYbyOi0c/view?usp=sharing",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "h2o",
+        title: "H2O: Open casebook, Digital Reading Experiences of Law Students",
+        authors: "Seonghee Lee, Jack Cushman, Catherine Brobston, Harmony Eidelton, 2023 18th ACM/IEEE International Conference on Human-Computer Interaction (CHI), 2023",
         link: "#",
+        doi:"https://doi.org/10.1145/3544549.3573857",
+        video:"https://www.youtube.com/watch?v=5Q6aqrAfDPY",
+        code:"https://github.com/harvard-lil/h2o",
     },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+];
 
+const projectportfolio = [
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title: "DarakBooks - GPT Book Recommendation",
+        description: "Backend Development of GPT Based Book Recommendation API, User Book Club Groups API - Typescript, Nestjs, Swagger",
+        github: "https://github.com/darakbooks-project/darakbooks-BE",
+        website: "https://darakbooks.vercel.app/onboarding"
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title: "Perceived Harm Reddit - Stanford ESRG",
+        description: "Fullstack Development of Reddit Survey through using a chrome extension to scrape user comments, analyze scores through Perspective and Generative survey questions. Parallel Processing, Serverside development Django",
+        github: "https://github.com/shljessie/RedditSurvey",
+        website: "http://reddit.esrg.stanford.edu/"
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title: "Mecerdez Benz Non-Verbal AI Interaction - Cochl.AI",
+        description: "Full Stack development of Non-verbal AI Interaction prototype in Mercedes Benz Cars using Cochl Socket API",
+        github: "https://github.com/shljessie/MBUX",
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title: "MyCourseIndex - Cornell Data Science",
+        description: "an essential search engine for Cornell students and their courses with the initial goal to improve the Piazza search user experience. This search gathers all information from Piazza posts to Textbook and Notes Resources and returns valid results for the student to utilize",
+        github: "https://github.com/oscarso2000/MyCourseIndex",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title: "IEUM Bridging Transportation and Humans",
+        description: "Best Student Paper Award at Human Robot Interaction Conference (ACM/IEEE) HRI 2022",
+        paper: "https://ieeexplore.ieee.org/abstract/document/9889531",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title: "Eternal Testimony",
+        description: "As of Jun 2020, there are only 17 survivors of the Japanese military comfort women. We are initiating the '영원한 증언 Eternal Testimony' project, a novel way to preserve our history for all perpetuity in a vivid and memorable way.",
+        website: "https://www.creative-computing.org/post/eternal-testimony-2018-2020",
+    },
+    {
+        title: "The Last 100 meter Problem: Passenger Interaction in Autonomous Vehicles",
+        description: "A Gestural Interaction for Passenger Interaction in Autonomous Vehicles",
+        paper: "https://yw6524.wixsite.com/carat",
+    },
+    {
+        title: "Algorithmic Awareness on Youtube",
+        description: "User Prototying to Explore User Awareness of Youtube Recommendations",
+        paper: "http://127.0.0.1:4000/assets/youtube.pdf",
+    },
+    {
+        title: "Remote Interaction with Embodied EyeTracking Robot",
+        description: "We present an open-source, low cost telepresence robot that moves according to a remote user’s head movements and has a display that can be used to display a video of the remote user.",
+        paper: "https://drive.google.com/file/d/19x9CiQBZJfIglFcGmhnYhgXXs3ZLQPIj/view",
     },
 ];
 
@@ -193,10 +219,11 @@ export {
     researchexperience,
     workexperience,
     worktimeline,
-    skills,
     services,
     introdata,
     contactConfig,
     socialprofils,
+    projectportfolio,
     logotext,
+    awards,
 };

@@ -1,8 +1,10 @@
-import React, { useState } from "react";
 import "./style.css";
-import { VscGrabber, VscClose } from "react-icons/vsc";
+
+import React, { useState } from "react";
+import { VscClose, VscGrabber } from "react-icons/vsc";
+import { logotext, socialprofils } from "../content_option";
+
 import { Link } from "react-router-dom";
-import { logotext ,socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
 
 const Headermain = () => {
@@ -38,13 +40,13 @@ const Headermain = () => {
                   <Link  onClick={handleToggle} to="/" className="my-3">Home</Link>
                   </li>
                   <li className="menu_item">
-                    <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link>
+                    <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Research</Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/about" className="my-3">About</Link>
+                  <Link onClick={handleToggle} to="/projects" className="my-3">Software Tools & Projects</Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
+                  <Link onClick={handleToggle} to="/about" className="my-3">CV (About Me)</Link>
                   </li>
                 </ul>
               </div>
@@ -64,8 +66,7 @@ const Headermain = () => {
       <div className="br-bottom"></div>
       <div className="br-left"></div>
       <div className="br-right"></div>
-      
-    </>
+      </>
   );
 };
 

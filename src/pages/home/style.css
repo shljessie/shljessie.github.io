@@ -6,6 +6,11 @@ section {
     -o-transition: all .5s ease-in;
     transition: all .5s ease-in;
 }
+.down{
+    margin-top: 5%;
+    margin-left: 40%;
+    text-align: center;
+}
 body {
     background-image: url("../../assets/images/blob.svg");
     background-repeat: no-repeat; 

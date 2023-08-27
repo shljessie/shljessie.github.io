@@ -1,5 +1,8 @@
-### Description
+npm install gh-pages --save-dev
+
+push
+
+npm run deploy
+
 
 yarn start
-
-https://www.youtube.com/watch?v=Q9n2mLqXFpU
