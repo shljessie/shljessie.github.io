@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/seonghee_lee/static/css/main.31d697b3.css",
+    "main.js": "/seonghee_lee/static/js/main.b563fce3.js",
+    "static/media/shl.png": "/seonghee_lee/static/media/shl.ff97828ebd720cb27956.png",
+    "index.html": "/seonghee_lee/index.html",
+    "static/media/blob.svg": "/seonghee_lee/static/media/blob.316fef3e1aab26a68c91.svg",
+    "main.31d697b3.css.map": "/seonghee_lee/static/css/main.31d697b3.css.map",
+    "main.b563fce3.js.map": "/seonghee_lee/static/js/main.b563fce3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d697b3.css",
+    "static/js/main.b563fce3.js"
+  ]
+}
