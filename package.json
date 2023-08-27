@@ -1,7 +1,7 @@
 {
     "name": "react-portfolio",
     "version": "0.1.0",
-    "homepage": "http://shljessie.github.io",
+    "homepage": "http://shljessie.github.io/shljessie.github.io",
     "private": true,
     "dependencies": {
         "bootstrap": "^5.2.3",
