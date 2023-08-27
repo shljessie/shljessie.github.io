@@ -39,6 +39,7 @@ export const Portfolio = () => {
                   <h6>{data.authors}</h6>
                   <div>
                   <p>{data.description}</p>
+                  {data.coming && <a class="d"> coming soon </a>}
                   {data.link && <a class="d" href={data.link}>pdf </a>}
                   {data.link && data.video && ' | '}
                   {data.video && <a class="d" href={data.video}>video </a>}
