@@ -38,12 +38,15 @@ export const Portfolio = () => {
                   <h5>{data.title}</h5>
                   <h6>{data.authors}</h6>
                   <div>
-                    <p>{data.description}</p>
-                    <a class="d" href={data.link}>pdf </a> |
-                    <a class="d" href={data.video}> video </a> |
-                    <a class="d" href={data.news}> news </a> |
-                    <a class="d" href={data.code}> code </a>
-                  </div>
+                  <p>{data.description}</p>
+                  {data.link && <a class="d" href={data.link}>pdf </a>}
+                  {data.link && data.video && ' | '}
+                  {data.video && <a class="d" href={data.video}>video </a>}
+                  {data.video && data.news && ' | '}
+                  {data.news && <a class="d" href={data.news}>news </a>}
+                  {data.news && data.code && ' | '}
+                  {data.code && <a class="d" href={data.code}>code </a>}
+                </div>
                 </div>
               </div>
             );
