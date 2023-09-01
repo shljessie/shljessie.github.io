@@ -123,7 +123,7 @@ const dataportfolio = [
     {
         img: "teachyou",
         title: "TeachYou: Authoring Generative Teachable Agents for Programming Education",
-        authors: "2024 19th ACM/IEEE International Conference on Human-Computer Interaction (CHI)",
+        authors: "(Submitted to) 2024 19th ACM/IEEE International Conference on Human-Computer Interaction (CHI)",
         coming: "contact me",
     }
     ,
