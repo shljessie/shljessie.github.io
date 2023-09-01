@@ -51,15 +51,15 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link to="/contact">
+                  <a href="https://drive.google.com/file/d/1Lmo2ltgaVfgKaWcAA7m_F64Zz9lVg2Ct/view?usp=sharing">                  
                     <div id="button_h" className="ac_btn btn">
-                    <a href="https://drive.google.com/file/d/1Lmo2ltgaVfgKaWcAA7m_F64Zz9lVg2Ct/view?usp=sharing"></a>
                       Download CV
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
-                  </Link>
+                    </a>
+         
                 </div>
               </div>           <p class="down"> ↓ Research & Projects  ↓</p>
             </div>
