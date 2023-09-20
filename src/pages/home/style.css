@@ -11,6 +11,9 @@ section {
     margin-left: 40%;
     text-align: center;
 }
+a{
+  color:  royalblue;
+}
 body {
     background-image: url("../../assets/images/blob.svg");
     background-repeat: no-repeat; 
@@ -41,7 +44,7 @@ body {
 }
 
 .btn-about a {
-    color: var(--text-color);
+    color: royalblue;
     text-decoration: none;
 }
 

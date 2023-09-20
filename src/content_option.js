@@ -9,10 +9,9 @@ const introdata = {
     animated: {
         first: "Human AI Interaction",
         second: "Applied Machine Learning",
-        third: "Software Engineering",
     },
-    description: "I am currently a Research Assistant at the KAIST Interaction Lab (KIXLAB) developing a Generative Agent for Programming Education. My research interests are at the intersection of Human-AI Interaction and applied Machine Learning." ,
-    description_two:"  I am currently pursuing my Masters in Computer Science at Stanford and I did my undergrad at Cornell studying Information Science. I have received grants and scholarships for my research like the Robert S Ann Morley Research Grant and the Gwanjeong Scholarship for my Master's Studies.",
+    description: "In the past, I was a Research Assistant at the KAIST Interaction Lab (KIXLAB) developing a Generative Agent for Programming Education. My research interests are at the intersection of Human-AI Interaction and applied Machine Learning." ,
+    description_two:"  I am currently a first year Computer Science (MS) student at Stanford and I did my undergrad at Cornell studying Information Science. I have received grants and scholarships for my research like the Robert S Ann Morley Research Grant and the Gwanjeong Scholarship for my Master's Studies.",
     your_img_url: "",
 };
 

@@ -22,11 +22,11 @@ export const Home = () => {
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
+            <br/>                <br/>
               <div className="intro mx-auto">
                <img width="200px" alt="" src={shlImage} />
                 <h2 className="mb-1x">{introdata.title}</h2>
-                <h1> Computer Science @Stanford</h1>
-                <h1 className="fluidz-48 mb-1x">
+                <h6 className="fluidz-48 mb-1x">
                   <Typewriter
                     options={{
                       strings: [
@@ -39,9 +39,16 @@ export const Home = () => {
                       deleteSpeed: 10,
                     }}
                   />
-                </h1>
-                <p className="mb-1x">{introdata.description}</p>
-                <p className="mb-1x">{introdata.description_two}</p>
+                </h6>
+                <br/>
+                <p className="mb-1x"> I am currently a first year <b>Computer Science (MS) student @Stanford</b> and I did my undergrad @Cornell studying Information Science. 
+                I am currently working with <a href="https://cs.stanford.edu/~diyiy/group.html"> <b>Professor Diyi Yang</b></a> and <a href="https://hci.stanford.edu/msb/"><b>Professor Michael Bernstein</b></a> on LLM Agents for Social Learning and Adaptation.
+                My research interests are in Natural Language Processing and Human AI Interaction. I am currently working on developing LLM agents that can adapt and align with user needs through interaction.
+                Specifically, I want to focus on how we can model abstract information such as social values and user preferences into generative models.
+                <br/> <br/>
+                In the past I was a Research Assistant at the KAIST Interaction Lab (KIXLAB) - Professor Juho Kim on developing a Generative Agent for Programming Education. 
+                I have also worked with Autonomous Vehicle companies such as <a href="https://motional.com/">Motional</a>, <a href="https://www.hyundaimotorgroup.com/main/mainRecommend">Hyundai Motor Group</a>, AI startups such as <a href="https://www.cochl.ai/">Cochl.AI</a> , and the <a href="https://lil.law.harvard.edu/">Harvard Berkman Klein Center- Library Innovation Lab</a>. 
+                I have received grants and scholarships for my research like the Robert S Ann Morley Research Grant and the Gwanjeong Scholarship for my Master's Studies.</p>
                 <div className="intro_btn-action pb-5">
                   <Link to="/about" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
@@ -61,7 +68,7 @@ export const Home = () => {
                     </a>
          
                 </div>
-              </div>           <p class="down"> ↓ Research & Projects  ↓</p>
+              </div><p class="down"> ↓ Research & Projects  ↓</p>
             </div>
           </div>
 

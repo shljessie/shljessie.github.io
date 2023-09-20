@@ -87,3 +87,6 @@
 .po_item .content a:hover {
     text-decoration: none;
 }
+a{
+    color:blue;
+}
