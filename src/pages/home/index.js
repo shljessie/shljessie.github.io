@@ -42,7 +42,7 @@ export const Home = () => {
                 </h6>
                 <br/>
                 <p className="mb-1x"> I am currently a first year <b>Computer Science (MS) student @Stanford</b> and I did my undergrad @Cornell studying Information Science. 
-                I am currently working with <a href="https://cs.stanford.edu/~diyiy/group.html"> <b>Professor Diyi Yang</b></a> and <a href="https://hci.stanford.edu/msb/"><b>Professor Michael Bernstein</b></a> on LLM Agents for Social Learning and Adaptation.
+                I am currently working with <a href="https://cs.stanford.edu/~diyiy/group.html"> <b>Professor Diyi Yang</b></a> on LLM Agents for Social Learning and Adaptation.
                 My research interests are in Natural Language Processing and Human AI Interaction. I am currently working on developing LLM agents that can adapt and align with user needs through interaction.
                 Specifically, I want to focus on how we can model abstract information such as social values and user preferences into generative models.
                 <br/> <br/>
