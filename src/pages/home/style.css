@@ -68,11 +68,12 @@ body {
 }
 .mb-1x{
     font-weight: 500;
+    margin-top: 5px;
 }
 img {
     border-radius: 50%;  /* This makes the image circular */
-    width: 130px;        /* Width of the image - adjust as needed */
-    height: 150px; 
+    width: 140px;        /* Width of the image - adjust as needed */
+    height: 155px; 
 }
 
 @media (max-width:991.98px) {
@@ -262,7 +263,7 @@ img {
     filter: saturate(0.5);
 }
 
-
+  
 @import url('https://fonts.googleapis.com/css?family=Poppins:700');
 body {
   overflow: hidden;
@@ -274,7 +275,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  fill: #8FBC8B;
+  fill: #F0F8FF;
   width: 50vmax;
   z-index: -1;
   animation: move 10s ease-in-out infinite;
@@ -282,10 +283,10 @@ body {
 }
 
 @keyframes move {
-  0%   { transform: scale(1)   translate(10px, -30px); }
-  38%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
-  40%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
-  78%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
-  80%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
-  100% { transform: scale(1)   translate(10px, -30px); }
-}
+    0%   { transform: scale(1)   translate(80vw, 80vh); } /* Start at bottom right */
+    38%  { transform: scale(0.8, 1) translate(10vw, 30vh) rotate(160deg); }
+    40%  { transform: scale(0.8, 1) translate(10vw, 30vh) rotate(160deg); }
+    78%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+    80%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+    100% { transform: scale(1)   translate(80vw, 80vh); } /* Return to bottom right */
+  }

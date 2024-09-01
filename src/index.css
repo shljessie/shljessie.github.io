@@ -1,20 +1,20 @@
 :root {
-    --bg-color: #0c0c0c;
-    --primary-color: #0d0d0d;
+    --bg-color: #005A9C;
+    --primary-color: #005A9C;
     --secondary-color: #fff;
     --text-color: #fff;
     --text-color-2: #fff;
-    --text-color-3: rgb(204, 0, 0);
-    --overlay-color: rgb(12 12 12 / 63%);
+    --text-color-3: #318CE7;
+    --overlay-color: #005A9C(12 12 12 / 63%);
 }
 
 [data-theme="light"] {
     --bg-color: #ffffff;
     --primary-color: #ffffff;
-    --secondary-color: #000;
+    --secondary-color: #318CE7;
     --text-color: #000;
-    --text-color-2: #000;
-    --text-color-3: rgb(204, 0, 0);
+    --text-color-2: #005A9C;
+    --text-color-3: #318CE7;
     --overlay-color: rgb(255 255 255 / 70%);
 }
 

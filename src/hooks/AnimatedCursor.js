@@ -1,4 +1,4 @@
-import React, {useEffect,useRef,useState,useCallback} from "react"
+import React, {useCallback, useEffect, useRef, useState} from "react"
 
 const IsDevice = (() => {
     if (typeof navigator == 'undefined') return
@@ -90,7 +90,7 @@ function useEventListener(eventName, handler, element = document) {
 function CursorCore({
     outerStyle,
     innerStyle,
-    color = '220, 90, 90',
+    color = '173, 216, 230',
     outerAlpha = 0.3,
     innerSize = 8,
     outerSize = 8,
