@@ -54,4 +54,6 @@ To deploy the website using GitHub Pages, follow these steps:
 The website will be accessible via your GitHub Pages URL, typically formatted as:
 
 
+## Citations
+
 The animated cursor used in this project is based on the work by **Stephen Scaff**. You can find more of his work on [GitHub](https://github.com/stephenscaff).
