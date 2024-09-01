@@ -25,7 +25,7 @@ export const Portfolio = () => {
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
             <h3>📚 Selected Publications </h3>{" "}
-            <p>For more publications, please visit my <a href="https://scholar.google.com/citations?user=POepUzkAAAAJ&hl=en"> Google Scholar </a></p>
+            
           </Col>
         </Row>
         <div className="">
@@ -57,12 +57,14 @@ export const Portfolio = () => {
                     )}
                     {data.project && <a className="d" href={data.project}>Project Code</a>}
                   </div>
+                  
                 </div>
               </div>
             );
-            
+  
           })}
         </div>
+        <p style={{marginBottom: '40px'}}> .......etc.   For more publications, please visit my <a href="https://scholar.google.com/citations?user=POepUzkAAAAJ&hl=en"> Google Scholar </a></p>
       </Container>
     </HelmetProvider>
   );
