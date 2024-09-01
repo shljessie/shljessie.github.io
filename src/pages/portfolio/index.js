@@ -5,13 +5,15 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { dataportfolio, meta } from "../../content_option";
 
 import React from "react";
+import altCanvas from "../../assets/research/altCanvas.png";
+import cs224s from "../../assets/research/cs224s.png";
 import h2o from "../../assets/research/h2o.png";
 import multi from "../../assets/research/multi.png";
 import teachyou from "../../assets/research/teachyou.png";
 
 export const Portfolio = () => {
 
-  var imglist=[teachyou, multi, h2o]
+  var imglist=[altCanvas, cs224s, teachyou, multi]
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -32,25 +34,33 @@ export const Portfolio = () => {
             return (
               <div key={i} className="researchBox">
                 <div>
-                <img class="img_research" src={imglist[i]} alt="d"></img>
+                  <img className="img_research" src={imglist[i]} alt="d"></img>
                 </div>
                 <div className="description">
                   <h5>{data.title}</h5>
                   <h6>{data.authors}</h6>
+                  <h6>{data.conference}</h6>
                   <div>
-                  <p>{data.description}</p>
-                  {data.coming && <a class="d"> coming soon </a>}
-                  {data.link && <a class="d" href={data.link}>pdf </a>}
-                  {data.link && data.video && ' | '}
-                  {data.video && <a class="d" href={data.video}>video </a>}
-                  {data.video && data.news && ' | '}
-                  {data.news && <a class="d" href={data.news}>news </a>}
-                  {data.news && data.code && ' | '}
-                  {data.code && <a class="d" href={data.code}>code </a>}
-                </div>
+                    <p>{data.description}</p>
+                    {data.coming && <a className="d"> coming soon </a>}
+                    {data.doi && (
+                      <>
+                        <a className="d" href={data.doi}>DOI</a>
+                        {(data.video || data.project) && ' | '}
+                      </>
+                    )}
+                    {data.video && (
+                      <>
+                        <a className="d" href={data.video}>Video</a>
+                        {data.project && ' | '}
+                      </>
+                    )}
+                    {data.project && <a className="d" href={data.project}>Project Code</a>}
+                  </div>
                 </div>
               </div>
             );
+            
           })}
         </div>
       </Container>

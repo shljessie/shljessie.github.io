@@ -19,7 +19,7 @@ import youtube from "../../assets/project/youtube.png";
 
 export const Projects = () => {
 
-  var imglist=[books, reddit, cochl, mci, IEUM, ET, carpoint, youtube, remote]
+  var imglist=[books, reddit, cochl, mci, ET, carpoint, remote]
   return (
     <HelmetProvider>
       <Container className="About-header">

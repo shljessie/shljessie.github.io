@@ -120,10 +120,30 @@ const researchexperience = [{
 
 const dataportfolio = [
     {
+        img: "altCanvas",
+        title: "AltCanvas: A Tile-Based Image Editor with Generative AI for Blind or Visually Impaired People",
+        authors: "Seonghee Lee, Maho Kohga, Steve Landau, Sile O'Modhrain, Hari Subramonyam",
+        conference: "ACM SIGACCESS Conference on Computers and Accessibility, ASSETS 2024",
+        doi:"https://doi.org/10.48550/arXiv.2408.10240",
+        video:"https://www.youtube.com/watch?v=tJUqjjwSxPs",
+        code:"coming soon",
+    },
+    {
+        img: "cs224s",
+        title: "Beyond Scale: Analyzing ASR Model Performance in Code-Switching Data",
+        authors: "Seonghee Lee, Yiling Zhao, Michela Marchini",
+        conference: "CS 224S Speech Language Processing (A+)",
+        doi:"https://drive.google.com/file/d/1iVEVgdgw4sbKr1InlFf43_tFV8i-9Oi0/view",
+    }
+    ,
+    {
         img: "teachyou",
-        title: "TeachYou: Authoring Generative Teachable Agents for Programming Education",
-        authors: "(Submitted to) 2024 19th ACM/IEEE International Conference on Human-Computer Interaction (CHI)",
-        coming: "contact me",
+        title: "Teach AI How to Code: Using Large Language Models as Teachable Agents for Programming Education",
+        authors: "Hyoungwook Jin, Seonghee Lee, Hyungyu Shin, Juho Kim",
+        conference: "2024 19th ACM/IEEE International Conference on Human-Computer Interaction (CHI)",
+        doi:"https://doi.org/10.1145/3613904.3642349",
+        video:"https://www.youtube.com/watch?v=MEtcA6GjfAg",
+        project:"https://jhw123.github.io/project/teachyou",
     }
     ,
     {
@@ -131,22 +151,13 @@ const dataportfolio = [
         title: "MultiSum: A Large Dataset for Multimodal Video Temporal Segmentation and Summarization",
         authors: "Jielin Qiu, Claire Jin, Seong hee Lee, Ding Zhao, 2023 18th ACM/IEEE International Conference on Machine Learning (ICML), 2023",
         link: "https://drive.google.com/file/d/12hRGbsry94zcJsU2V1_bVWFulYbyOi0c/view?usp=sharing",
-    },
-    {
-        img: "h2o",
-        title: "H2O: Open casebook, Digital Reading Experiences of Law Students",
-        authors: "Seonghee Lee, Jack Cushman, Catherine Brobston, Harmony Eidelton, 2023 18th ACM/IEEE International Conference on Human-Computer Interaction (CHI), 2023",
-        link: "#",
-        doi:"https://doi.org/10.1145/3544549.3573857",
-        video:"https://www.youtube.com/watch?v=5Q6aqrAfDPY",
-        code:"https://github.com/harvard-lil/h2o",
-    },
+    }
 ];
 
 const projectportfolio = [
     {
-        title: "DarakBooks - GPT Book Recommendation",
-        description: "Backend Development of GPT Based Book Recommendation API, User Book Club Groups API - Typescript, Nestjs, Swagger",
+        title: "DarakBooks - LLM based Book Recommendation",
+        description: "Backend Development of LLM Based Book Recommendation API, User Book Club Groups API - Typescript, Nestjs, Swagger",
         github: "https://github.com/darakbooks-project/darakbooks-BE",
         website: "https://darakbooks.vercel.app/onboarding"
     },
@@ -166,11 +177,11 @@ const projectportfolio = [
         description: "an essential search engine for Cornell students and their courses with the initial goal to improve the Piazza search user experience. This search gathers all information from Piazza posts to Textbook and Notes Resources and returns valid results for the student to utilize",
         github: "https://github.com/oscarso2000/MyCourseIndex",
     },
-    {
-        title: "IEUM Bridging Transportation and Humans",
-        description: "Best Student Paper Award at Human Robot Interaction Conference (ACM/IEEE) HRI 2022",
-        paper: "https://ieeexplore.ieee.org/abstract/document/9889531",
-    },
+    // {
+    //     title: "IEUM Bridging Transportation and Humans",
+    //     description: "Best Student Paper Award at Human Robot Interaction Conference (ACM/IEEE) HRI 2022",
+    //     paper: "https://ieeexplore.ieee.org/abstract/document/9889531",
+    // },
     {
         title: "Eternal Testimony",
         description: "As of Jun 2020, there are only 17 survivors of the Japanese military comfort women. We are initiating the '영원한 증언 Eternal Testimony' project, a novel way to preserve our history for all perpetuity in a vivid and memorable way.",
@@ -181,16 +192,16 @@ const projectportfolio = [
         description: "A Gestural Interaction for Passenger Interaction in Autonomous Vehicles",
         paper: "https://yw6524.wixsite.com/carat",
     },
-    {
-        title: "Algorithmic Awareness on Youtube",
-        description: "User Prototying to Explore User Awareness of Youtube Recommendations",
-        paper: "http://127.0.0.1:4000/assets/youtube.pdf",
-    },
-    {
-        title: "Remote Interaction with Embodied EyeTracking Robot",
-        description: "We present an open-source, low cost telepresence robot that moves according to a remote user’s head movements and has a display that can be used to display a video of the remote user.",
-        paper: "https://drive.google.com/file/d/19x9CiQBZJfIglFcGmhnYhgXXs3ZLQPIj/view",
-    },
+    // {
+    //     title: "Algorithmic Awareness on Youtube",
+    //     description: "User Prototying to Explore User Awareness of Youtube Recommendations",
+    //     paper: "http://127.0.0.1:4000/assets/youtube.pdf",
+    // },
+    // {
+    //     title: "Remote Interaction with Embodied EyeTracking Robot",
+    //     description: "We present an open-source, low cost telepresence robot that moves according to a remote user’s head movements and has a display that can be used to display a video of the remote user.",
+    //     paper: "https://drive.google.com/file/d/19x9CiQBZJfIglFcGmhnYhgXXs3ZLQPIj/view",
+    // },
 ];
 
 const contactConfig = {
