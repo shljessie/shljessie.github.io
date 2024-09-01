@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is Seonghee's personal portfolio website showcasing projects, research, and other professional achievements.
+This is [Seonghee's personal portfolio website](https://shljessie.github.io/) showcasing projects, research, and other professional achievements.
 
 Feel free to clone and use!
 
