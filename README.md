@@ -18,7 +18,7 @@ First, clone the repository and navigate to the project directory:
 ```bash
 git clone <your-repo-url>
 cd <your-repo-directory>
-
+```
 
 ## Deployment
 
