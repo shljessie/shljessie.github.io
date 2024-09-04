@@ -13,7 +13,7 @@ const Themetoggle = () => {
   }, [theme]);
   return (
     <div className="nav_ac" onClick={themetoggle}>
-     <WiMoonAltWaningCrescent4 style={{display:'none'}} />
+     <WiMoonAltWaningCrescent4 />
     </div>
   );
 };
