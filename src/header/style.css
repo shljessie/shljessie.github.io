@@ -3,6 +3,9 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+.bunnyIcon{
+    /* width:3%; */
+}
 
 .menu__button {
     color: var(--text-color);

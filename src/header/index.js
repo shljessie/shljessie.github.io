@@ -6,6 +6,7 @@ import { logotext, socialprofils } from "../content_option";
 
 import { Link } from "react-router-dom";
 import Themetoggle from "../components/themetoggle";
+import bunnyIcon from "../assets/images/icon.jpg";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
@@ -18,7 +19,9 @@ const Headermain = () => {
   return (
     <>
       <header className="fixed-top site__header">
+
         <div className="d-flex align-items-center justify-content-between">
+
           <Link  className="navbar-brand nav_ac" to="/">
             {logotext}
           </Link>
