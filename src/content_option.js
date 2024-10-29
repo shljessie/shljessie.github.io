@@ -126,6 +126,7 @@ const dataportfolio = [
         conference: "ACM SIGACCESS Conference on Computers and Accessibility, ASSETS 2024",
         doi:"https://doi.org/10.48550/arXiv.2408.10240",
         video:"https://www.youtube.com/watch?v=tJUqjjwSxPs",
+        project:"https://shljessie.github.io/AltCanvas/",
         code:"coming soon",
     },
     {
