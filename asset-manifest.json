@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.940ea4b5.css",
-    "main.js": "/static/js/main.ec9835cc.js",
+    "main.css": "/static/css/main.bac6c83b.css",
+    "main.js": "/static/js/main.5a402932.js",
     "static/media/microsoft_headshot.png": "/static/media/microsoft_headshot.629d5c12e29055a5d19a.png",
     "static/media/carpoint.png": "/static/media/carpoint.de20f0a1e4d9b24bea2a.png",
     "static/media/mci.png": "/static/media/mci.d1bcfeeb3491ba3c1a1a.png",
@@ -9,22 +9,17 @@
     "static/media/remote.png": "/static/media/remote.750c489017040402e98a.png",
     "static/media/ET.png": "/static/media/ET.c6aada0cc1c63fec0b70.png",
     "static/media/reddit.png": "/static/media/reddit.3ab83037c62d1858efe5.png",
-    "static/media/IEUM.png": "/static/media/IEUM.abe2d0d2e5238a4b8aa3.png",
     "static/media/altCanvas.png": "/static/media/altCanvas.24840fb63648adb9e6b6.png",
     "static/media/teachyou.png": "/static/media/teachyou.c1d433f9023f0736ff4d.png",
-    "static/media/youtube.png": "/static/media/youtube.903fb1a36a9ac3153d42.png",
     "static/media/books.png": "/static/media/books.2027b40ae8c292dc6174.png",
     "static/media/cs224s.png": "/static/media/cs224s.fc896f213dc9ea74fd82.png",
     "static/media/multi.png": "/static/media/multi.8bf92cf3c9b8f6090ce9.png",
-    "static/media/h2o.png": "/static/media/h2o.d8ce35422f5c9c477b63.png",
-    "static/media/icon.jpg": "/static/media/icon.bd51196856745ac0edea.jpg",
     "index.html": "/index.html",
-    "static/media/blob.svg": "/static/media/blob.16a350fbde67ed07a10c.svg",
-    "main.940ea4b5.css.map": "/static/css/main.940ea4b5.css.map",
-    "main.ec9835cc.js.map": "/static/js/main.ec9835cc.js.map"
+    "main.bac6c83b.css.map": "/static/css/main.bac6c83b.css.map",
+    "main.5a402932.js.map": "/static/js/main.5a402932.js.map"
   },
   "entrypoints": [
-    "static/css/main.940ea4b5.css",
-    "static/js/main.ec9835cc.js"
+    "static/css/main.bac6c83b.css",
+    "static/js/main.5a402932.js"
   ]
 }
