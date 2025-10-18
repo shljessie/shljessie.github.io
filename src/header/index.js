@@ -6,7 +6,6 @@ import { logotext, socialprofils } from "../content_option";
 
 import { Link } from "react-router-dom";
 import Themetoggle from "../components/themetoggle";
-import bunnyIcon from "../assets/images/icon.jpg";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
@@ -65,10 +64,6 @@ const Headermain = () => {
           </div>
         </div>
       </header>
-      <div className="br-top"></div>
-      <div className="br-bottom"></div>
-      <div className="br-left"></div>
-      <div className="br-right"></div>
       </>
   );
 };

@@ -1,7 +1,23 @@
 .site__header {
-    top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    top: 20px;
+    padding: 0 40px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    margin: 0 20px;
+    z-index: 1000;
+    position: fixed;
+    width: calc(100% - 40px);
+}
+
+@media (max-width: 768px) {
+    .site__header {
+        margin: 0 10px;
+        padding: 0 20px;
+        width: calc(100% - 20px);
+    }
 }
 .bunnyIcon{
     /* width:3%; */
@@ -25,59 +41,27 @@
 }
 
 .nav_ac {
-    padding: 5px 15px;
+    padding: 12px 24px;
     margin: 0;
     border: unset;
-    background: var(--primary-color);
-    font-size: 1.25rem;
-    font-family: Marcellus;
-    color: black;
-    line-height: 2;
-    height: 50px;
-    font-weight: bold;
+    background: transparent;
+    font-size: 1.125rem;
+    font-family: 'Google Sans', 'Roboto', sans-serif;
+    color: var(--text-color);
+    line-height: 1.5;
+    height: auto;
+    font-weight: 500;
     z-index: 1000;
+    border-radius: 8px;
+    transition: all 0.2s ease;
 }
 
 .nav_ac:hover {
-    color: var(--text-color-2);
+    color: var(--secondary-color);
+    background: var(--hover-bg);
 }
 
-.br-top,
-.br-bottom,
-.br-right,
-.br-left {
-    position: fixed;
-    z-index: 999999;
-    background: var(--primary-color);
-}
-
-.br-top {
-    top: 0;
-    height: 10px;
-    left: 0;
-    width: 100%;
-}
-
-.br-bottom {
-    bottom: 0;
-    left: 0;
-    height: 10px;
-    width: 100%;
-}
-
-.br-right {
-    width: 10px;
-    right: 0;
-    top: 0;
-    height: 100%;
-}
-
-.br-left {
-    width: 10px;
-    left: 0;
-    top: 0;
-    height: 100%;
-}
+/* Removed old border styling for cleaner Google Experiments look */
 
 .cortina__wrapper-menu {
     position: relative;

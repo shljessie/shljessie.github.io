@@ -12,17 +12,32 @@ section {
     border-radius:0%;
 }
 .down{
-    margin-top: 5%;
-    margin-left: 40%;
+    margin-top: 60px;
     text-align: center;
+    font-size: 1rem;
+    color: var(--text-color-2);
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    position: relative;
+}
+
+.down::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--secondary-color), transparent);
+    opacity: 0.5;
 }
 a{
   color:  royalblue;
 }
 body {
-    background-image: url("../../assets/images/blob.svg");
-    background-repeat: no-repeat; 
-    background-position: right;
+    background: #ffffff;
+    background-attachment: fixed;
 }
 .home-image{
     display: flex;
@@ -54,10 +69,13 @@ body {
 }
 
 .intro_sec {
-    height: calc(100vh - 60px);
+    height: calc(100vh - 100px);
     min-height: 700px;
-    height: 100vh;
-    margin-top: -60px;
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
 }
 
 @media (max-width:991.98px) {
@@ -72,13 +90,24 @@ body {
     width: 80%;
 }
 .mb-1x{
-    font-weight: 500;
-    margin-top: 5px;
+    font-weight: 400;
+    margin-top: 14px;
+    line-height: 1.5;
+    color: var(--text-color-2);
+    font-size: 0.9rem;
 }
 img {
-    border-radius: 50%;  /* This makes the image circular */
-    width: 140px;        /* Width of the image - adjust as needed */
-    height: 155px; 
+    border-radius: 16px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0 4px 16px var(--shadow-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 24px var(--shadow-color);
 }
 
 @media (max-width:991.98px) {
@@ -89,15 +118,44 @@ img {
 }
 
 .intro_sec .intro {
-    max-width: 930px;
+    max-width: 800px;
     margin: 0 auto;
+    text-align: center;
+    padding: 60px 40px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    overflow: hidden;
+    margin-top: 40%;
+}
+
+.intro_sec .intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--secondary-color), transparent);
+    opacity: 0.3;
 }
 
 @media (max-width:991.98px) {
     .intro_sec .intro {
         max-width: 700px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 40px 20px;
+        margin: 20px;
+    }
+    
+    .intro_sec {
+        padding: 0 10px;
+    }
+    
+    .geometric-shape {
+        display: none; /* Hide on mobile for cleaner look */
     }
 }
 
@@ -113,14 +171,18 @@ img {
 }
 
 .intro_sec .text h1 {
-    font-size: 20px;
-    margin-bottom: 50px;
-    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+    letter-spacing: -0.02em;
 }
 
 .intro_sec .text h3 {
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-color-2);
+    margin-bottom: 14px;
 }
 
 .intro_sec .h_bg-image {
@@ -131,15 +193,21 @@ img {
 }
 
 .ac_btn {
-    padding: 4px 19px;
+    padding: 12px 24px;
     color: var(--secondary-color);
     position: relative;
-    border: var(--secondary-color) 2px solid;
+    border: 2px solid var(--secondary-color);
     overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
-    border-radius: 0;
-    margin-right: 20px;
+    border-radius: 8px;
+    margin-right: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    background: transparent;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .ac_btn a {
@@ -147,7 +215,10 @@ img {
 }
 
 .ac_btn:hover {
-    box-shadow: 8px 8px 0px var(--text-color), -8px -8px 0px var(--text-color);
+    background: var(--secondary-color);
+    color: var(--bg-color);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(66, 133, 244, 0.3);
 }
 
 .ac_btn:hover .one {
@@ -268,35 +339,46 @@ img {
     filter: saturate(0.5);
 }
 
-  
-@import url('https://fonts.googleapis.com/css?family=Poppins:700');
-body {
-  overflow: hidden;
-  position: relative;
-  background: #FFB1A4;
+/* Google Experiments inspired minimal geometric shapes */
+.geometric-shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.05;
+    animation: float 8s ease-in-out infinite;
 }
 
-.blob {
-  position: absolute;
-  top: 0;
-  left: 0;
-  fill: #F0F8FF;
-  width: 50vmax;
-  z-index: -1;
-  animation: move 10s ease-in-out infinite;
-  transform-origin: 50% 50%;
+.geometric-shape:nth-child(1) {
+    width: 120px;
+    height: 120px;
+    background: var(--secondary-color);
+    top: 15%;
+    left: 8%;
+    animation-delay: 0s;
 }
 
-@keyframes move {
-    0%   { transform: scale(1)   translate(80vw, 80vh); } /* Start at bottom right */
-    38%  { transform: scale(0.8, 1) translate(10vw, 30vh) rotate(160deg); }
-    40%  { transform: scale(0.8, 1) translate(10vw, 30vh) rotate(160deg); }
-    78%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
-    80%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
-    100% { transform: scale(1)   translate(80vw, 80vh); } /* Return to bottom right */
-  }
+.geometric-shape:nth-child(2) {
+    width: 80px;
+    height: 80px;
+    background: var(--accent-color);
+    top: 70%;
+    right: 12%;
+    animation-delay: 3s;
+}
 
-/* Hide blob in light theme */
-[data-theme="dark"] .blob {
-    display: none; /* Alternatively, you can use opacity: 0; */
-  }
+.geometric-shape:nth-child(3) {
+    width: 100px;
+    height: 100px;
+    background: #ea4335;
+    bottom: 25%;
+    left: 15%;
+    animation-delay: 6s;
+}
+
+@keyframes float {
+    0%, 100% { 
+        transform: translateY(0px) rotate(0deg) scale(1); 
+    }
+    50% { 
+        transform: translateY(-15px) rotate(90deg) scale(1.1); 
+    }
+}

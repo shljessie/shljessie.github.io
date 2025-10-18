@@ -7,7 +7,6 @@ import {
   FaTwitch,
   FaTwitter,
   FaYoutube,
-  PiStudentBold,
 } from "react-icons/fa";
 
 import React from "react";

@@ -7,13 +7,12 @@ import { dataportfolio, meta } from "../../content_option";
 import React from "react";
 import altCanvas from "../../assets/research/altCanvas.png";
 import cs224s from "../../assets/research/cs224s.png";
-import h2o from "../../assets/research/h2o.png";
 import multi from "../../assets/research/multi.png";
 import teachyou from "../../assets/research/teachyou.png";
 
 export const Portfolio = () => {
-
-  var imglist=[altCanvas, cs224s, teachyou, multi]
+  const images = [altCanvas, cs224s, teachyou, multi];
+  
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -23,45 +22,38 @@ export const Portfolio = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
-          <Col lg="8">
+          <Col lg="8" style={{marginTop: '20%'}}>
             <h3>📚 Selected Publications </h3>{" "}
             
           </Col>
         </Row>
-        <div className="">
+        <div className="po_items_ho">
           {dataportfolio.map((data, i) => {
+            const projectImage = images[i];
             
             return (
-              <div key={i} className="researchBox">
-                <div>
-                  <img className="img_research" src={imglist[i]} alt="d"></img>
-                </div>
-                <div className="description">
-                  <h5>{data.title}</h5>
-                  <h6>{data.authors}</h6>
-                  <h6>{data.conference}</h6>
-                  <div>
-                    <p>{data.description}</p>
-                    {data.coming && <a className="d"> coming soon </a>}
-                    {data.doi && (
-                      <>
-                        <a className="d" href={data.doi}>DOI</a>
-                        {(data.video || data.project) && ' | '}
-                      </>
-                    )}
-                    {data.video && (
-                      <>
-                        <a className="d" href={data.video}>Video</a>
-                        {data.project && ' | '}
-                      </>
-                    )}
-                    {data.project && <a className="d" href={data.project}>Project Code</a>}
+              <div key={i} className="po_item">
+                <div className="card-header">
+                  <div className="card-image">
+                    <img src={projectImage} alt={data.title} />
                   </div>
-                  
+                </div>
+                <div className="card-content">
+                  <h5 className="card-title">{data.title}</h5>
+                  <div className="card-authors">{data.authors}</div>
+                  <div className="card-conference">{data.conference}</div>
+                  <div className="card-description">
+                    {data.description}
+                  </div>
+                  <div className="card-actions">
+                    {data.coming && <span>Coming Soon</span>}
+                    {data.doi && <a href={data.doi} target="_blank" rel="noreferrer">DOI</a>}
+                    {data.video && <a href={data.video} target="_blank" rel="noreferrer">Video</a>}
+                    {data.project && <a href={data.project} target="_blank" rel="noreferrer">Project</a>}
+                  </div>
                 </div>
               </div>
             );
-  
           })}
         </div>
         <p style={{marginBottom: '40px'}}> .......etc.   For more publications, please visit my <a href="https://scholar.google.com/citations?user=POepUzkAAAAJ&hl=en"> Google Scholar </a></p>
