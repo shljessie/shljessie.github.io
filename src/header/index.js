@@ -34,33 +34,40 @@ const Headermain = () => {
         </div>
 
         <div className={`site__navigation ${!isActive ? "menu__opend" : ""}`}>
-          <div className="bg__menu h-100">
+          <div className="bg__menu">
+            <button className="menu__close" onClick={handleToggle}>
+              <VscClose />
+            </button>
             <div className="menu__wrapper">
-              <div className="menu__container p-3">
+              <div className="menu__container">
                 <ul className="the_menu">
-                  <li className="menu_item ">
-                  <Link  onClick={handleToggle} to="/" className="my-3">Home</Link>
+                  <li className="menu_item">
+                    <a href={socialprofils.github} target="_blank" rel="noreferrer">GitHub</a>
                   </li>
                   <li className="menu_item">
-                    <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Research</Link>
+                    <a href="https://medium.com/@shljessie" target="_blank" rel="noreferrer">Writings</a>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/projects" className="my-3">Software Tools & Projects</Link>
+                    <a href={socialprofils.scholar} target="_blank" rel="noreferrer">Google Scholar</a>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/about" className="my-3">CV (About Me)</Link>
+                    <a href={socialprofils.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
                   </li>
+                  
                 </ul>
+                  
+              </div>
+              <div className="menu_footer">
+                <div className="d-flex flex-column">
+                  <div className="d-flex mb-2">
+                    <a href={socialprofils.github} target="_blank" rel="noreferrer">Github</a>
+                    <a href={socialprofils.scholar} target="_blank" rel="noreferrer">Google Scholar</a>
+                    <a href={socialprofils.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
+                  </div>
+                    <p className="copyright m-0">© {logotext}</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
-            <div className="d-flex">
-            <a href={socialprofils.facebook}>Facebook</a>
-            <a href={socialprofils.github}>Github</a>
-            <a href={socialprofils.twitter}>Twitter</a>
-            </div>
-            <p className="copyright m-0">copyright __ {logotext}</p>
           </div>
         </div>
       </header>

@@ -6,12 +6,11 @@ import { dataportfolio, meta } from "../../content_option";
 
 import React from "react";
 import altCanvas from "../../assets/research/altCanvas.png";
-import cs224s from "../../assets/research/cs224s.png";
-import multi from "../../assets/research/multi.png";
 import teachyou from "../../assets/research/teachyou.png";
+import irlditto from "../../assets/images/irl-ditto.png";
 
 export const Portfolio = () => {
-  const images = [altCanvas, cs224s, teachyou, multi];
+  const images = [altCanvas, teachyou, irlditto];
   
   return (
     <HelmetProvider>
@@ -21,10 +20,10 @@ export const Portfolio = () => {
           <title> Research | {meta.title} </title>{" "}
           <meta name="description" content={meta.description} />
         </Helmet>
-        <Row className="mb-5 mt-3 pt-md-3">
-          <Col lg="8" style={{marginTop: '20%'}}>
-            <h3>📚 Selected Publications </h3>{" "}
-            
+        <Row className="mb-3 mt-4">
+          <Col lg="12">
+            <h2 className="section-title">📚 Selected Publications</h2>
+            <p className="citation-count">Total Citations: 122</p>
           </Col>
         </Row>
         <div className="po_items_ho">

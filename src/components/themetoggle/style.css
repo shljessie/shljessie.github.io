@@ -2,8 +2,6 @@
     background: var(--primary-color);
     z-index: 999999999;
     left: 10px;
-    background: var(--primary-color);
-    display: none;
     height: 50px;
     align-items: center;
     padding-left: 10px;
@@ -12,5 +10,4 @@
 .theme_toggler svg {
     width: 2em;
     height: 2em;
-    display: none;
 }

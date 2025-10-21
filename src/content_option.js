@@ -130,28 +130,20 @@ const dataportfolio = [
         code:"coming soon",
     },
     {
-        img: "cs224s",
-        title: "Beyond Scale: Analyzing ASR Model Performance in Code-Switching Data",
-        authors: "Seonghee Lee, Yiling Zhao, Michela Marchini",
-        conference: "CS 224S Speech Language Processing (A+)",
-        doi:"https://drive.google.com/file/d/1iVEVgdgw4sbKr1InlFf43_tFV8i-9Oi0/view",
-    }
-    ,
-    {
         img: "teachyou",
-        title: "Teach AI How to Code: Using Large Language Models as Teachable Agents for Programming Education",
+        title: "🏆 Teach AI How to Code: Using Large Language Models as Teachable Agents for Programming Education",
         authors: "Hyoungwook Jin, Seonghee Lee, Hyungyu Shin, Juho Kim",
-        conference: "2024 19th ACM/IEEE International Conference on Human-Computer Interaction (CHI)",
+        conference: "2024 19th ACM/IEEE International Conference on Human-Computer Interaction (CHI) - Honorable Mention",
         doi:"https://doi.org/10.1145/3613904.3642349",
         video:"https://www.youtube.com/watch?v=MEtcA6GjfAg",
         project:"https://jhw123.github.io/project/teachyou",
-    }
-    ,
+    },
     {
-        img: "multi",
-        title: "MultiSum: A Large Dataset for Multimodal Video Temporal Segmentation and Summarization",
-        authors: "Jielin Qiu, Claire Jin, Seong hee Lee, Ding Zhao, 2023 18th ACM/IEEE International Conference on Machine Learning (ICML), 2023",
-        link: "https://drive.google.com/file/d/12hRGbsry94zcJsU2V1_bVWFulYbyOi0c/view?usp=sharing",
+        img: "irlditto",
+        title: "IRL Dittos: Embodied Multimodal AI Agent Interactions in Open Spaces",
+        authors: "Seonghee Lee, Kori Inkpen, John Tang, Asta Roseway, Sasa Junuzovic",
+        conference: "Microsoft Research - Project Transcendence (HCAIX)",
+        doi:"https://arxiv.org/pdf/2504.21347",
     }
 ];
 
@@ -221,7 +213,6 @@ const socialprofils = {
     facebook: "https://facebook.com",
     scholar: "https://scholar.google.com/citations?user=POepUzkAAAAJ&hl=en",
     linkedin: "https://www.linkedin.com/in/seonghee-lee/",
-    twitter: "https://twitter.com",
 };
 export {
     meta,
