@@ -27,17 +27,18 @@
 }
 
 [data-theme="dark"] {
-    --bg-color: #2a2a2a;
-    --primary-color: #000000;
-    --secondary-color: #4285f4;
-    --accent-color: #34a853;
-    --text-color: #e8e8e8;
-    --text-color-2: #b0b0b0;
-    --text-color-3: #4285f4;
-    --overlay-color: rgba(0, 0, 0, 0.95);
-    --shadow-color: rgba(0, 0, 0, 0.8);
-    --border-color: #3a3a3a;
-    --hover-bg: #0a0a0a;
+    /* GitHub dark mode inspired palette */
+    --bg-color: #0d1117;              /* page background */
+    --primary-color: #161b22;         /* cards/surfaces */
+    --secondary-color: #58a6ff;       /* links/accents */
+    --accent-color: #3fb950;          /* success accent */
+    --text-color: #c9d1d9;            /* primary text */
+    --text-color-2: #8b949e;          /* secondary text */
+    --text-color-3: #58a6ff;          /* highlight */
+    --overlay-color: rgba(1, 4, 9, 0.9);
+    --shadow-color: rgba(1, 4, 9, 0.6);
+    --border-color: #30363d;          /* subtle borders */
+    --hover-bg: #21262d;              /* hover surface */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap');
