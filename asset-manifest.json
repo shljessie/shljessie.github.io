@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.bac6c83b.css",
-    "main.js": "/static/js/main.5a402932.js",
-    "static/media/microsoft_headshot.png": "/static/media/microsoft_headshot.629d5c12e29055a5d19a.png",
+    "main.css": "/static/css/main.53f1489f.css",
+    "main.js": "/static/js/main.aed132ef.js",
     "static/media/carpoint.png": "/static/media/carpoint.de20f0a1e4d9b24bea2a.png",
     "static/media/mci.png": "/static/media/mci.d1bcfeeb3491ba3c1a1a.png",
     "static/media/cochl.png": "/static/media/cochl.8adfb33a9306fbfd12cf.png",
+    "static/media/darkprofile.png": "/static/media/darkprofile.d0d2484ea1734a4f40fb.png",
     "static/media/remote.png": "/static/media/remote.750c489017040402e98a.png",
+    "static/media/profile2.png": "/static/media/profile2.67c5f0a97f41816f7d61.png",
     "static/media/ET.png": "/static/media/ET.c6aada0cc1c63fec0b70.png",
     "static/media/reddit.png": "/static/media/reddit.3ab83037c62d1858efe5.png",
     "static/media/altCanvas.png": "/static/media/altCanvas.24840fb63648adb9e6b6.png",
     "static/media/teachyou.png": "/static/media/teachyou.c1d433f9023f0736ff4d.png",
     "static/media/books.png": "/static/media/books.2027b40ae8c292dc6174.png",
-    "static/media/cs224s.png": "/static/media/cs224s.fc896f213dc9ea74fd82.png",
-    "static/media/multi.png": "/static/media/multi.8bf92cf3c9b8f6090ce9.png",
+    "static/media/irl-ditto.png": "/static/media/irl-ditto.8592d58b8a924f6b9750.png",
     "index.html": "/index.html",
-    "main.bac6c83b.css.map": "/static/css/main.bac6c83b.css.map",
-    "main.5a402932.js.map": "/static/js/main.5a402932.js.map"
+    "main.53f1489f.css.map": "/static/css/main.53f1489f.css.map",
+    "main.aed132ef.js.map": "/static/js/main.aed132ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.bac6c83b.css",
-    "static/js/main.5a402932.js"
+    "static/css/main.53f1489f.css",
+    "static/js/main.aed132ef.js"
   ]
 }
