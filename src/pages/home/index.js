@@ -1,12 +1,11 @@
 import "./style.css";
 
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import React, { useEffect, useState } from "react";
 import { introdata, meta } from "../../content_option";
 
- 
-import React, { useState, useEffect } from "react";
-import lightProfile from '../../assets/images/profile2.png';
 import darkProfile from '../../assets/images/darkprofile.png';
+import lightProfile from '../../assets/images/profile2.png';
 
 export const Home = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
@@ -35,7 +34,8 @@ export const Home = () => {
   const softwareVideos = [
     {
       title: "XeleR",
-      description: "AI powered coding assistant for Unity. \nContact for more information.",
+      description: "AI powered coding assistant for Unity.",
+      link: "Made by: Nathan Trisha, Adrian, Ashal, and me",
       videoUrl: "https://www.youtube.com/embed/Mp_YbdUxzi8"
     },
     {
@@ -53,7 +53,7 @@ export const Home = () => {
     {
       title: "Vidi",
       description: "Video Assistant Agent for Blind and Low Vision Users",
-      videoUrl: "", // Add your video URL
+      videoUrl: "Made by: Lorenzo, Trini, Maria and me", // Add your video URL
       link: "https://github.com/shljessie/VideoChat"
     }
   ];

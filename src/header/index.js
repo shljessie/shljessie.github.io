@@ -45,7 +45,7 @@ const Headermain = () => {
                     <a href={socialprofils.github} target="_blank" rel="noreferrer">GitHub</a>
                   </li>
                   <li className="menu_item">
-                    <a href="https://medium.com/@shljessie" target="_blank" rel="noreferrer">Writings</a>
+                    <a href="https://substack.com/@seonghee" target="_blank" rel="noreferrer">Writings</a>
                   </li>
                   <li className="menu_item">
                     <a href={socialprofils.scholar} target="_blank" rel="noreferrer">Google Scholar</a>
