@@ -6,6 +6,7 @@ import { introdata, meta } from "../../content_option";
 
 import darkProfile from '../../assets/images/darkprofile.png';
 import lightProfile from '../../assets/images/profile2.png';
+import vidi from '../../assets/images/vidi.png';
 
 export const Home = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
@@ -35,7 +36,7 @@ export const Home = () => {
     {
       title: "XeleR",
       description: "AI powered coding assistant for Unity.",
-      link: "Made by: Nathan Trisha, Adrian, Ashal, and me",
+      authors: "Made by: Nathan Trisha, Adrian, Ashal, and me",
       videoUrl: "https://www.youtube.com/embed/Mp_YbdUxzi8"
     },
     {
@@ -53,7 +54,8 @@ export const Home = () => {
     {
       title: "Vidi",
       description: "Video Assistant Agent for Blind and Low Vision Users",
-      videoUrl: "Made by: Lorenzo, Trini, Maria and me", // Add your video URL
+      authors: "Made by: Lorenzo, Trini, Maria and me", // Add your video URL
+      imageUrl: "../../assets/images/vidi.png",
       link: "https://github.com/shljessie/VideoChat"
     }
   ];
@@ -129,13 +131,14 @@ export const Home = () => {
                           ></iframe>
                         ) : (
                           <div className="video-placeholder">
-                            <p>Video coming soon</p>
+                            <img src={vidi} alt={video.title}         style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                           </div>
                         )}
                       </div>
                       <div className="video-info">
                         <h3>{video.title}</h3>
                         <p>{video.description}</p>
+                        <p>{video.authors}</p>
                         {video.link && (
                           <a href={video.link} target="_blank" rel="noreferrer" className="software-link">
                             View Project →
